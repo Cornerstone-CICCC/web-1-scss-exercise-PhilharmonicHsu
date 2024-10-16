@@ -1,0 +1,10 @@
+// _footer.scss
+@use 'variables' as vars;
+@use 'mixins' as mix;
+
+footer {
+  background-color: vars.$secondary-color;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
